@@ -115,7 +115,7 @@ dependencies:
   event_bus_plus: ^0.6.2
   fpdart: ^1.0.0
   home_widget: ^0.9.0
-  realm: ^20.0.0
+  realm: ^19.0.0
   fl_chart: ^1.1.1
   qr_code_scanner:
     git:
