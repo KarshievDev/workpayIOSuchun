@@ -86,3 +86,6 @@ dependencies:
   flutter_screenutil: ^5.8.4
   syncfusion_flutter_gauges: ^32.2.9
   flutter_local_notifications: ^19.1.0
+dependency_overrides:
+  intl: ^0.20.2     # Ikkala paketni ham yangiroq versiyaga majburlaymiz
+  analyzer: ^6.4.1
