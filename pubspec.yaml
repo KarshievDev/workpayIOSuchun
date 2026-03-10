@@ -219,7 +219,7 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
-dependency_overrides:
+
   analyzer: ^6.4.1
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
