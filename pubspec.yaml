@@ -85,4 +85,4 @@ dependencies:
   connectivity_plus: ^6.1.0
   flutter_screenutil: ^5.8.4
   syncfusion_flutter_gauges: ^32.2.9
-  flutter_local_notifications: ^17.0.0
+  flutter_local_notifications: ^19.1.0
