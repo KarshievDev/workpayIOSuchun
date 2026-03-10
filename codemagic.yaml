@@ -7,24 +7,28 @@ workflows:
       flutter: stable
       xcode: latest
     scripts:
-      - name: Get Flutter packages
+      - name: Clean and Get Flutter packages
         script: |
+          # Kernel snapshot xatosini oldini olish uchun hamma narsani tozalaymiz
+          flutter clean
           flutter pub get
           # Realm binar fayllarini iOS uchun majburiy yuklash
           dart run realm install --target-os-type ios
       - name: Reset iOS Pods
         script: |
           cd ios
-          # Kesh va eski fayllarni tozalash
+          # Eski bog'liqliklarni va keshni butunlay o'chirib tashlaymiz
           rm -rf Pods
           rm -rf Podfile.lock
-          # CocoaPods repolarini yangilash va o'rnatish
+          rm -rf ~/Library/Caches/CocoaPods
+          
+          # CocoaPods repolarini yangilash va toza o'rnatish
           pod repo update
           pod install --repo-update
           cd ..
       - name: Flutter build ipa
         script: |
-          # Build jarayoni
+          # Build jarayoni - toza kesh bilan boshlanadi
           flutter build ipa --release --no-codesign
     publishing:
       email:
