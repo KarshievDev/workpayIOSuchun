@@ -2,22 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CLIENT_ID</key>
-	<string>203411705611-p2rmd2bee7hh7cuf3qtgbvb46u46e4r8.apps.googleusercontent.com</string>
-	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.203411705611-p2rmd2bee7hh7cuf3qtgbvb46u46e4r8</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCZknWYudCvdNBRWdt7n8JAgY0_MdA_xRc</string>
+	<string>AIzaSyBxWH1xUj8iKMu6i2em9ZnXnLUg1l6y0z8</string>
 	<key>GCM_SENDER_ID</key>
-	<string>203411705611</string>
+	<string>997514293432</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.sookh.hrm</string>
+	<string>com.work.pay</string>
 	<key>PROJECT_ID</key>
-	<string>hourworx</string>
+	<string>strawberry-hrm</string>
 	<key>STORAGE_BUCKET</key>
-	<string>hourworx.appspot.com</string>
+	<string>strawberry-hrm.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +25,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:203411705611:ios:0f88c1c7abbb494cc7dc0e</string>
+	<string>1:997514293432:ios:02176f0fc76ba038a4844d</string>
+	<key>DATABASE_URL</key>
+	<string>https://strawberry-hrm-default-rtdb.firebaseio.com</string>
 </dict>
 </plist>
