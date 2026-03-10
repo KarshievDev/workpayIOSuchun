@@ -1,0 +1,125 @@
+{
+  "project_info": {
+    "project_number": "997514293432",
+    "firebase_url": "https://strawberry-hrm-default-rtdb.firebaseio.com",
+    "project_id": "strawberry-hrm",
+    "storage_bucket": "strawberry-hrm.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997514293432:android:9c5e633e4bdcd415a4844d",
+        "android_client_info": {
+          "package_name": "com.bus.tracking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR3_sfVj_bj95yloUpR4MhhppHJWCX6KY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997514293432:android:cd5b474ee0b63595a4844d",
+        "android_client_info": {
+          "package_name": "com.driver.tracking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR3_sfVj_bj95yloUpR4MhhppHJWCX6KY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997514293432:android:16f188705e515a26a4844d",
+        "android_client_info": {
+          "package_name": "com.example.whatsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR3_sfVj_bj95yloUpR4MhhppHJWCX6KY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997514293432:android:4f680f359991c5f6a4844d",
+        "android_client_info": {
+          "package_name": "com.hr.lio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR3_sfVj_bj95yloUpR4MhhppHJWCX6KY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997514293432:android:bc71d3a11c5dcdaaa4844d",
+        "android_client_info": {
+          "package_name": "com.hrm.strawberry"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR3_sfVj_bj95yloUpR4MhhppHJWCX6KY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997514293432:android:696f7b919ab13feea4844d",
+        "android_client_info": {
+          "package_name": "com.work.pay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR3_sfVj_bj95yloUpR4MhhppHJWCX6KY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
