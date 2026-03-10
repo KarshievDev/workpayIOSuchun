@@ -10,21 +10,21 @@ workflows:
       - name: Get Flutter packages
         script: |
           flutter pub get
+          # Realm binar fayllarini iOS uchun majburiy yuklash
+          dart run realm install --target-os-type ios
       - name: Reset iOS Pods
         script: |
           cd ios
-          # Eski lock fayllarni va keshni butunlay o'chirib tashlaymiz
+          # Kesh va eski fayllarni tozalash
           rm -rf Pods
           rm -rf Podfile.lock
-          rm -rf ~/Library/Caches/CocoaPods
-          rm -rf ~/.cocoapods
-          
-          # Yangidan repo-larni yuklab olamiz
+          # CocoaPods repolarini yangilash va o'rnatish
           pod repo update
           pod install --repo-update
           cd ..
       - name: Flutter build ipa
         script: |
+          # Build jarayoni
           flutter build ipa --release --no-codesign
     publishing:
       email:
